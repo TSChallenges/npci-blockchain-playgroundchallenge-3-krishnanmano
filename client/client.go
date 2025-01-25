@@ -86,5 +86,5 @@ func main() {
 		log.Fatalf("Failed to unmarshal result: %v", err)
 	}
 
-	fmt.Printf("Loan details: %v", loan.Outstanding)
+	fmt.Printf("Outstanding Balance: %v", loan.Outstanding)
 }
